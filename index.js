@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const port = 3001;
 
-// Middleware
+// Middleware IG 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 
