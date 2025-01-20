@@ -57,7 +57,7 @@ app.post("/generate-audio", (req, res) => {
     }
 });
 
-// Start the server
+// Start the servers
 app.listen(process.env.X_ZOHO_CATALYST_LISTEN_PORT || 3001, () => {
     console.log(`Server is running at http://localhost:${port}`);
 });
