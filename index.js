@@ -63,7 +63,7 @@ app.listen(process.env.X_ZOHO_CATALYST_LISTEN_PORT || 3001, () => {
 });
 
 
-//!local server is turned off it is running on production server vdvdvdv
+//!local server is turned off it is running on production server 
 app.get("/", (req, res) => {
     res.send("Welcome to the Text-to-Speech API. Use the POST /generate-audio endpoint to generate audio.");
 });
